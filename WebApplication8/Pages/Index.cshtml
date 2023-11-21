@@ -1,0 +1,73 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Philippines</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+<div class="profile-card2" style="max-width:300px;">
+    <div class="w3-display-topleft">
+        <img src="~/css/boracay.jpg" style="width:100%" />
+        <div class="profile-desc">
+            <h4><b>Boracay</b></h4>
+            <p>This is the Boracay Island.</p>
+        </div>
+    </div>
+    
+</div>
+
+<div class="profile-card3" style="max-width:300px;">
+    <div class="w3-display-topmiddle">Top Left</div>
+    <img src="~/css/chocolatehills.jpg" style="width:100%" />
+    <div class="profile-desc">
+        <h4><b>Boracay</b></h4>
+        <p>This is the Chocolate hills .</p>
+    </div>
+</div>
+
+<div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button" onclick="openCity('Mayon')">Mayon Volcano</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Boracay')">Boracay Island</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Chocolatehills')">Chocolate Hills</button>
+</div>
+
+<div id="Mayon" class="city">
+    <span onclick="this.parentElement.style.display='none'"></span>
+    <div class="profile-card" style="max-width:300px;">
+        <img src="~/css/mayon.jpg" style="width:100%" />
+        <div class="profile-desc">
+            <h4><b>Mayon Volcano</b></h4>
+            <p>This is the Mayon Volcano.</p>
+        </div>
+    </div>
+</div>
+
+<div id="Boracay" class="city">
+    <span onclick="this.parentElement.style.display='none'"></span>
+    <div class="profile-card2" style="max-width:300px;">
+        <img src="~/css/boracay.jpg" style="width:100%" />
+        <div class="profile-desc">
+            <h4><b>Boracay Island</b></h4>
+            <p>This is the Boracay Island.</p>
+        </div>
+    </div>
+</div>
+
+<div id="Chocolatehills" class="city">
+    <span onclick="this.parentElement.style.display='none'"></span>
+    <div class="profile-card3" style="max-width:300px;">
+        <img src="~/css/chocolatehills.jpg" style="width:100%" />
+        <div class="profile-desc">
+            <h4><b>Chocolate Hills</b></h4>
+            <p>This is the Chocolate Hills.</p>
+        </div>
+    </div>
+</div>
+
+
