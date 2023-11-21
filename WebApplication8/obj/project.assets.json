@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ojt\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+      "projectUniqueName": "C:\\Users\\ojt\\Documents\\git repo\\testing\\testing\\WebApplication8\\WebApplication8.csproj",
       "projectName": "WebApplication8",
-      "projectPath": "C:\\Users\\ojt\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+      "projectPath": "C:\\Users\\ojt\\Documents\\git repo\\testing\\testing\\WebApplication8\\WebApplication8.csproj",
       "packagesPath": "C:\\Users\\ojt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ojt\\source\\repos\\WebApplication8\\WebApplication8\\obj\\",
+      "outputPath": "C:\\Users\\ojt\\Documents\\git repo\\testing\\testing\\WebApplication8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ojt\\AppData\\Roaming\\NuGet\\NuGet.Config",
